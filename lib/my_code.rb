@@ -46,6 +46,7 @@ def reduce_to_total(array, starting_point = nil)
   total = 0
   if starting_point
     total = starting_point
+  elsif 
   end
   i = 0 
   while i < array.length do
