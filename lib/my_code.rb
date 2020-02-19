@@ -67,5 +67,7 @@ def reduce_to_all_true(array)
   value
 end
 
+def red
+
 
   
