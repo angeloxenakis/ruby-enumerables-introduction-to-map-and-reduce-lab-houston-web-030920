@@ -59,7 +59,9 @@ def reduce_to_all_true(array)
   value = true
   i = 0 
   while i < array.length do
-    if array[i] = false
+    if array[i] = true
+    value = value
+    else 
     value = false
     end
     i += 1
@@ -67,7 +69,11 @@ def reduce_to_all_true(array)
   value
 end
 
-def red
+def reduce_any_true(array)
+  value = nil
+  i = 0
+  while i < array.length do
+    
 
 
   
