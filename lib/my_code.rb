@@ -44,7 +44,7 @@ end
 
 def reduce_to_total(array, starting_point = nil)
   total = 0
-  if starting_point
+  if starting_point != nil
     total = starting_point
   elsif 
   end
