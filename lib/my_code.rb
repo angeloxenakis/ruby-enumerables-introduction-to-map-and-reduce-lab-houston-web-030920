@@ -71,7 +71,7 @@ def reduce_any_to_true(array)
   value = false
   i = 0
   while i < array.length do
-    if array[i] = true
+    if array[i] == array[i]
       value = true
     end
     i += 1 
