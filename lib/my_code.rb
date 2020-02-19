@@ -42,14 +42,13 @@ end
 
 # reducing functions
 
-def reduce_to_total(array, starting_point = 0)
-  total = starting_point
+def reduce_to_total(array, starting_point)
   i = 0 
   while i < array.length do
-    total += array[i]
+    starting_point += array[i]
     i += 1 
   end
-  total
+  starting_point
 end 
 
 def reduce_to_all_true(array)
