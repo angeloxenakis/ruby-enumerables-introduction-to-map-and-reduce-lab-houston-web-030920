@@ -42,7 +42,7 @@ end
 
 # reducing functions
 
-def reduce_to_total(array, starting_point)
+def reduce_to_total(array, starting_point = nil)
   i = 0 
   while i < array.length do
     starting_point += array[i]
