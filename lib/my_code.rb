@@ -70,10 +70,13 @@ def reduce_to_all_true(array)
 end
 
 def reduce_any_true(array)
-  value = nil
+  value = false
   i = 0
   while i < array.length do
-    
-
-
-  
+    if array[i] = true
+      value = true
+    end
+    i += 1 
+  end
+  value
+end
