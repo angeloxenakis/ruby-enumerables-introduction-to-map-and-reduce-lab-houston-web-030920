@@ -59,9 +59,7 @@ def reduce_to_all_true(array)
   value = true
   i = 0 
   while i < array.length do
-    if array[i] == true
-    value = value
-    else 
+    if array[i] == false
     value = false
     end
     i += 1
